@@ -21,9 +21,9 @@ const Quiz = (props) => {
       <h1 className="font-medium leading-tight text-5xl mt-0 mb-2 text-dark-600 text-center mt-10">
         {quiz.category}
       </h1>
-      <p className="text-gray-700 text-base mb-4 text-2xl font-medium text-center mt-20">
-        {quiz.question}
-      </p>
+      <p
+        className="text-gray-700 text-base mb-4 text-2xl font-medium text-center mt-20"
+        dangerouslySetInnerHTML={{ __html: quiz.question }}></p>
       <div className="text-gray-700 text-base mb-4 text-2xl font-medium text-center mt-40">
         {cur} &nbsp; of &nbsp; 10
       </div>

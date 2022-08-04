@@ -11,7 +11,7 @@ const Home = (props) => {
   return (
     <div className="justify-center">
       <h1 className="font-medium leading-tight text-5xl mt-0 mb-2 text-dark-600 text-center mt-10">
-        Wel come to Trivia Challenge!
+        Welcome to Trivia Challenge!
       </h1>
       <p className="text-gray-700 text-base mb-4 text-2xl font-medium text-center mt-20">
         You will be presented with 10 True or False questions.

@@ -32,10 +32,12 @@ const Last = (props) => {
       </p>
       {quizes.map((quiz, item) => {
         return (
-          <div className="font-medium ml-2" key={item}>
-            {result[item] ? '+' : '-'}
-            &nbsp;
-            {quiz.question}
+          <div className="flex">
+            <div className="font-medium mx-2">{result[item] ? '+' : '-'}</div>
+            <div
+              className="font-medium"
+              key={item}
+              dangerouslySetInnerHTML={{ __html: quiz.question }}></div>
           </div>
         )
       })}
