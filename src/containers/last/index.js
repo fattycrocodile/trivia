@@ -9,7 +9,6 @@ const Last = (props) => {
   }
 
   const { values, quizes } = props
-  console.error('values', values, quizes)
 
   let score = 0
   let result = []
