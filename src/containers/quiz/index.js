@@ -38,7 +38,7 @@ const Quiz = (props) => {
           <label
             className="form-check-label inline-block text-gray-800"
             htmlFor="flexCheckDefault">
-            True of False
+            True or False
           </label>
         </div>
       </div>
